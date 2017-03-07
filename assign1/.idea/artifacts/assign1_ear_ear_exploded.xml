@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="assign1-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/assign1-ear/target/assign1-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="assign1-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/assign1-ear/target/assign1-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/assign1-ear/src/main/application" />
+      <element id="archive" name="assign1-web.war">
+        <element id="artifact" artifact-name="assign1-web:war exploded" />
+      </element>
+      <element id="archive" name="assign1-ejb.jar">
+        <element id="artifact" artifact-name="assign1-ejb:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
