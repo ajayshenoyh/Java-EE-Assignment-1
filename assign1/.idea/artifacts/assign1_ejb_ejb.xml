@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="ejb-jar" name="assign1-ejb:ejb">
-    <output-path>$PROJECT_DIR$/assign1-ejb/target</output-path>
-    <root id="archive" name="assign1-ejb.jar">
-      <element id="artifact" artifact-name="assign1-ejb:ejb exploded" />
-    </root>
-  </artifact>
-</component>
